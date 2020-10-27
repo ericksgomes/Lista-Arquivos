@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../walpaper.jpg");
+    background-position: 210%;
+}
+
+#content{
+    width: 30%;
+    height: 75%;
+    background-color: #f2f2f2;
+    padding: 2%;
+    border-radius: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    
+}
+
+#content h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#content p{
+    font-size: 15pt;
+    margin: 23px;
+    /* text-align: justify; */
+    color: black;
+}
+
+#content p a{
+    color: black;
+}
+
+#content p a:hover{
+    text-decoration: none;
+}
+
+#nota{
+    color: black;
+    padding: 8.5px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
